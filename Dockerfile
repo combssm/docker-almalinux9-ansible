@@ -24,9 +24,12 @@ RUN dnf makecache \
       initscripts \
       iproute \
       libyaml \
+      net-tools \
       python3 \
       python3-pip \
       sudo \
+      vim \
+      wget \
       which \
   && dnf clean all
 
